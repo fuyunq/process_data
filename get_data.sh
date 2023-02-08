@@ -13,5 +13,5 @@
 
 # MSMARCO experiments data
 cd data
-python3 process_marco.py --train_num 93020 --eval_num 6980 --save_dir msmarco_data/100k
+python3 test.py --train_num 93020 --eval_num 6980 --save_dir msmarco_data/100k
 cd ..
